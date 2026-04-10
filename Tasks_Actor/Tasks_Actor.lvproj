@@ -12,6 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="A_Actor.lvlib" Type="Library" URL="../A_Actor/A_Actor.lvlib"/>
+		<Item Name="B_Actor.lvlib" Type="Library" URL="../B_Actor/B_Actor.lvlib"/>
 		<Item Name="Button_transfer.lvlib" Type="Library" URL="../Button_transfer/Button_transfer.lvlib"/>
 		<Item Name="Load_VI.vi" Type="VI" URL="../Load_VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>

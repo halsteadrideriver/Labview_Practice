@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Generate_no_B Msg.lvclass" Type="LVClass" URL="../../Button_transfer Messages/Generate_no_B Msg/Generate_no_B Msg.lvclass"/>
+		<Item Name="Update_msg_B Msg.lvclass" Type="LVClass" URL="../../Button_transfer Messages/Update_msg_B Msg/Update_msg_B Msg.lvclass"/>
+		<Item Name="Update_msg_B2 Msg.lvclass" Type="LVClass" URL="../../Button_transfer Messages/Update_msg_B2 Msg/Update_msg_B2 Msg.lvclass"/>
+	</Item>
 	<Item Name="Button_transfer.lvclass" Type="LVClass" URL="../Button_transfer.lvclass"/>
 </Library>
