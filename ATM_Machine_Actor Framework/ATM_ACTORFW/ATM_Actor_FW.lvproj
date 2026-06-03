@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="25008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">25.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -12,12 +13,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Implementing the State Pattern in Actor Framework.pdf" Type="Document" URL="../documentation/Implementing the State Pattern in Actor Framework.pdf"/>
+		<Item Name="documentation" Type="Folder" URL="../documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/State Actor/State Actor/State Actor.lvclass"/>
 		<Item Name="Load App.vi" Type="VI" URL="../Load App.vi"/>
 		<Item Name="State Pattern UI.lvlib" Type="Library" URL="../State Pattern UI/State Pattern UI.lvlib"/>
 		<Item Name="Process States.lvlib" Type="Library" URL="../Process States/Process States.lvlib"/>
 		<Item Name="Process Actor.lvlib" Type="Library" URL="../Process Actor/Process Actor.lvlib"/>
+		<Item Name="Display_Console.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Display_Console.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
