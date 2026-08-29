@@ -9,4 +9,5 @@
 	</Item>
 	<Item Name="A_Actor.lvclass" Type="LVClass" URL="../A_Actor.lvclass"/>
 	<Item Name="A_msg Msg.lvclass" Type="LVClass" URL="../../A_Actor Messages/A_msg Msg/A_msg Msg.lvclass"/>
+	<Item Name="Random_number.lvclass" Type="LVClass" URL="../Random_number/Random_number.lvclass"/>
 </Library>

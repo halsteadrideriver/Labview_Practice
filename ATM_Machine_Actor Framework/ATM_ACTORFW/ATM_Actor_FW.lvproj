@@ -22,11 +22,11 @@
 		<Item Name="Test_Nested.lvlib" Type="Library" URL="../Test_Nested/Test_Nested.lvlib"/>
 		<Item Name="Test_Caller.lvlib" Type="Library" URL="../Test_Caller/Test_Caller.lvlib"/>
 		<Item Name="ATM_UI_Controller.lvlib" Type="Library" URL="../ATM_UI_Controller/ATM_UI_Controller.lvlib"/>
-		<Item Name="User_Console.lvlib" Type="Library" URL="../User_Console/User_Console.lvlib"/>
-		<Item Name="Display_Console.lvlib" Type="Library" URL="../Display_Console/Display_Console.lvlib"/>
-		<Item Name="Sensor_Iterface.lvlib" Type="Library" URL="../Sensor_Iterface/Sensor_Iterface.lvlib"/>
 		<Item Name="demo.lvlib" Type="Library" URL="../demo/demo.lvlib"/>
 		<Item Name="Demo_States.lvlib" Type="Library" URL="../Demo_States/Demo_States.lvlib"/>
+		<Item Name="User_Console-ATM.lvlib" Type="Library" URL="../User_Console-ATM/User_Console-ATM.lvlib"/>
+		<Item Name="State_Ack_Actor.lvlib" Type="Library" URL="../State_Ack_Actor/State_Ack_Actor.lvlib"/>
+		<Item Name="Display_Console_UI.lvlib" Type="Library" URL="../Display_Console_UI/Display_Console_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">

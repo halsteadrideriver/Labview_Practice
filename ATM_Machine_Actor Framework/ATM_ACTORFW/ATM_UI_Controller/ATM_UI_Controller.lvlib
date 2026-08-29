@@ -5,9 +5,22 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Update_Current_trans Msg.lvclass" Type="LVClass" URL="../../ATM_UI_Controller Messages/Update_Current_trans Msg/Update_Current_trans Msg.lvclass"/>
-		<Item Name="Update_Message Msg.lvclass" Type="LVClass" URL="../../ATM_UI_Controller Messages/Update_Message Msg/Update_Message Msg.lvclass"/>
-		<Item Name="Update_Process Msg.lvclass" Type="LVClass" URL="../../ATM_UI_Controller Messages/Update_Process Msg/Update_Process Msg.lvclass"/>
+		<Item Name="Update_states Msg.lvclass" Type="LVClass" URL="../../ATM_UI_Controller Messages/Update_states Msg/Update_states Msg.lvclass"/>
 	</Item>
 	<Item Name="ATM_UI_Controller.lvclass" Type="LVClass" URL="../ATM_UI_Controller.lvclass"/>
+	<Item Name="Balance_check.lvclass" Type="LVClass" URL="../Balance_check/Balance_check.lvclass"/>
+	<Item Name="CAncel_Transaction.lvclass" Type="LVClass" URL="../CAncel_Transaction/CAncel_Transaction.lvclass"/>
+	<Item Name="Cash_Removed.lvclass" Type="LVClass" URL="../Cash_Removed/Cash_Removed.lvclass"/>
+	<Item Name="Deposit_Finish.lvclass" Type="LVClass" URL="../Deposit_Finish/Deposit_Finish.lvclass"/>
+	<Item Name="Deposit_Init.lvclass" Type="LVClass" URL="../Deposit_Init/Deposit_Init.lvclass"/>
+	<Item Name="Fast_cash.lvclass" Type="LVClass" URL="../Fast_cash/Fast_cash.lvclass"/>
+	<Item Name="Init_state.lvclass" Type="LVClass" URL="../Init_state/Init_state.lvclass"/>
+	<Item Name="Login_Finish.lvclass" Type="LVClass" URL="../Login_Finish/Login_Finish.lvclass"/>
+	<Item Name="LogIn_Init.lvclass" Type="LVClass" URL="../LogIn_Init/LogIn_Init.lvclass"/>
+	<Item Name="New_Transaction.lvclass" Type="LVClass" URL="../New_Transaction/New_Transaction.lvclass"/>
+	<Item Name="Receive_keypad.lvclass" Type="LVClass" URL="../Receive_keypad/Receive_keypad.lvclass"/>
+	<Item Name="Terminate.lvclass" Type="LVClass" URL="../Terminate/Terminate.lvclass"/>
+	<Item Name="Withdrawal_Approved.lvclass" Type="LVClass" URL="../Withdrawal_Approved/Withdrawal_Approved.lvclass"/>
+	<Item Name="Withdrawal_failed.lvclass" Type="LVClass" URL="../Withdrawal_failed/Withdrawal_failed.lvclass"/>
+	<Item Name="Withdrawal_Init.lvclass" Type="LVClass" URL="../Withdrawal_Init/Withdrawal_Init.lvclass"/>
 </Library>
