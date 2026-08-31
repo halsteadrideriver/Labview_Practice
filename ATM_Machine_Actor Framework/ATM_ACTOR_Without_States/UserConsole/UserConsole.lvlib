@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Balance_abs Msg.lvclass" Type="LVClass" URL="../../UserConsole Messages/Balance_abs Msg/Balance_abs Msg.lvclass"/>
+		<Item Name="Card_in_out Msg.lvclass" Type="LVClass" URL="../../UserConsole Messages/Card_in_out Msg/Card_in_out Msg.lvclass"/>
+	</Item>
+	<Item Name="Case-Controller Msg.lvclass" Type="LVClass" URL="../../UserConsole Messages/Case-Controller Msg/Case-Controller Msg.lvclass"/>
 	<Item Name="UserConsole.lvclass" Type="LVClass" URL="../UserConsole.lvclass"/>
 </Library>

@@ -13,6 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ATM-Controller.lvlib" Type="Library" URL="../ATM-Controller/ATM-Controller.lvlib"/>
+		<Item Name="Database_handler.lvlib" Type="Library" URL="../Database_handler/Database_handler.lvlib"/>
+		<Item Name="DB_Global.vi" Type="VI" URL="../DB_Global.vi"/>
 		<Item Name="DisplayConsole.lvlib" Type="Library" URL="../DisplayConsole/DisplayConsole.lvlib"/>
 		<Item Name="Load_app.vi" Type="VI" URL="../Load_app.vi"/>
 		<Item Name="UserConsole.lvlib" Type="Library" URL="../UserConsole/UserConsole.lvlib"/>

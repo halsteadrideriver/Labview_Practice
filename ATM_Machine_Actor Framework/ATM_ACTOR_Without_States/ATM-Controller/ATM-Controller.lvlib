@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Case-controller Msg.lvclass" Type="LVClass" URL="../ATM-Controller Messages/Case-controller Msg/Case-controller Msg.lvclass"/>
+	</Item>
 	<Item Name="ATM-Controller.lvclass" Type="LVClass" URL="../ATM-Controller/ATM-Controller.lvclass"/>
 </Library>
